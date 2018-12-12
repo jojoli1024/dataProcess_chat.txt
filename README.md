@@ -1,2 +1,2 @@
-# chattingRobot_201807
-V1.0.0 问答库
+split Session为分割会话
+shorter Session Content为缩减session信息，变为QAQAQ形式
