@@ -6,7 +6,7 @@ new.txt为输入，chat_zh.txt为输出。chat_zh.txt为分割好的10943个sess
 
 new.txt: chat_zh.txt:
     
-![Alt text](./new chat_zh.PNG)
+![image](https://github.com/jojoli1024/dataProcess_chat.txt/blob/master/images/new chat_zh.PNG)
 
 shorter Session Content为缩减session信息，变为QAQAQ形式
 
@@ -14,6 +14,6 @@ chat_zh.txt为输入，chat_rd.txt为输出。chat_rd.txt为缩减后的sessions
 
 chat_zh.txt: chat_rd.txt:
 
-![Alt text](./chat_zh chat_rd.PNG)
+![image](https://github.com/jojoli1024/dataProcess_chat.txt/blob/master/images/chat_zh chat_rd.PNG)
 
 
