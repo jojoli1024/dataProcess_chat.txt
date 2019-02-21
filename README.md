@@ -27,7 +27,7 @@ chat_rd_after.txt为修正个别错误后的新文件（2019.02.20）
 
 将每个会话处理成QAQAQA格式
 
-##### 思路1：按顺序对应QA，删去多余的Q或者A
+#### 思路1：按顺序对应QA，删去多余的Q或者A
 
 | 输入 | 执行文件 |  输出 |
 |:---|:---|:---|
@@ -35,4 +35,8 @@ chat_rd_after.txt为修正个别错误后的新文件（2019.02.20）
 | chat_Q.txt / chat_A.txt | **deleteSession.py** | chat_Q_after.txt / chat_A_after.txt|
 | chat_Q_after.txt / chat_A_after.txt | **createQA1_2.py** | chat_Q_after.txt / chat_A_after.txt|
 
-##### 思路2：多个Q或者A合并为一个Q或者A
+#### 思路2：多个Q或者A合并为一个Q或者A
+
+| 输入              | 执行文件         | 输出         |
+| :---------------- | :--------------- | :----------- |
+| chat_rd_after.txt | **createQA2.py** | chat_QA2.txt |
